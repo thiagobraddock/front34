@@ -3,6 +3,7 @@ import rtl from '../../../assets/images/projects/rtl.png';
 import onlineStore from '../../../assets/images/projects/online-store.svg';
 import tunes from '../../../assets/images/projects/tunes.svg';
 import wallet from '../../../assets/images/projects/wallet.svg';
+import starWars from '../../../assets/images/projects/star-wars.svg';
 import passwordManager from '../../../assets/images/projects/password-manager.svg';
 
 function Projects() {
@@ -220,6 +221,44 @@ function Projects() {
                 </div>
               </div>
 
+            </div>
+          </div>
+        </div>
+        <div className="info-one style2">
+          <div className="row align-items-center">
+            <div className="col-lg-6 col-md-12 col-12">
+              <div className="info-text wow fadeInLeft" data-wow-delay=".3s" style={ { visibility: 'visible', animationDelay: '0.3s', animationName: 'fadeInLeft' } }>
+                <h2>Star Wars - Planets Search</h2>
+                <p>
+                  Projeto em
+                  {' '}
+                  <strong>React</strong>
+                  e
+                  {' '}
+                  <strong>TypeScript</strong>
+                  {' '}
+                  desenvolvendo habilidades de estado global com
+                  {' '}
+                  <strong>Context API</strong>
+                  {' '}
+                  com auxilio de hooks customizados
+                  .
+                  {' '}
+                  <br />
+                  Você irá desenvolver uma aplicação que lista planetas do universo Star Wars, utilizando uma API. Nessa aplicação você poderá adicionar diversos filtros de busca para filtrar e ordenar os planetas que deseja. Além disso irá garantir a qualidade do seu código com testes de integração com o
+                  {' '}
+                  <strong>React Testing Library</strong>
+                </p>
+                <div className="button">
+                  <a href="" className="btn">Iniciar</a>
+                </div>
+              </div>
+
+            </div>
+            <div className="col-lg-6 col-md-12 col-12">
+              <div className="info-image wow fadeInRight" data-wow-delay=".5s" style={ { visibility: 'visible', animationDelay: '0.5s', animationName: 'fadeInRight' } }>
+                <img className="ss1" alt="#" data-pagespeed-url-hash="2327635917" src={ starWars } />
+              </div>
             </div>
           </div>
         </div>
