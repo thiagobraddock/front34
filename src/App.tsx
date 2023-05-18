@@ -113,7 +113,7 @@ function App() {
         <Numbers />
       </SectionRoot>
       <SectionRoot
-        sectionId="overview"
+        sectionId="projects"
         className="app-info section"
         refEl={ projectsRef }
       >
