@@ -2,14 +2,14 @@ import { useEffect, useRef, useState } from 'react';
 import logoWhite from '../../assets/images/logo/white-logo.png';
 import logo from '../../assets/images/logo/logo.svg';
 
-function Header() {
+function Header({ currentSection }: { currentSection: string }) {
   const [isNavOnTop, setIsNavOnTop] = useState(true);
   const togglerRef = useRef<HTMLButtonElement>(null);
   const navBarAreaRef = useRef<HTMLHeadElement>(null);
   const navBarBrandRef = useRef<HTMLAnchorElement>(null);
 
   const handlePageScrollClick = (
-    e: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
+    e: React.MouseEvent<HTMLAnchorElement>,
   ) => {
     e.preventDefault();
     const elem = e.target as HTMLAnchorElement;
@@ -20,7 +20,7 @@ function Header() {
   };
 
   const handleTogglerClick = (
-    e: React.MouseEvent<HTMLButtonElement, MouseEvent>,
+    e: React.MouseEvent<HTMLButtonElement>,
   ) => {
     e.preventDefault();
     togglerRef?.current?.classList?.toggle('active');
@@ -82,7 +82,7 @@ function Header() {
                     <li className="nav-item">
                       <a
                         href="#home"
-                        className="page-scroll active"
+                        className={ `page-scroll ${currentSection === 'home' ? 'active' : ''}` }
                         aria-label="Toggle navigation"
                         onClick={ handlePageScrollClick }
                       >
@@ -92,7 +92,7 @@ function Header() {
                     <li className="nav-item">
                       <a
                         href="#team"
-                        className="page-scroll"
+                        className={ `page-scroll ${currentSection === 'team' ? 'active' : ''}` }
                         aria-label="Toggle navigation"
                         onClick={ handlePageScrollClick }
                       >
@@ -102,7 +102,7 @@ function Header() {
                     <li className="nav-item">
                       <a
                         href="#news"
-                        className="page-scroll"
+                        className={ `page-scroll ${currentSection === 'news' ? 'active' : ''}` }
                         aria-label="Toggle navigation"
                         onClick={ handlePageScrollClick }
                       >
@@ -112,7 +112,7 @@ function Header() {
                     <li className="nav-item">
                       <a
                         href="#numbers"
-                        className="page-scroll"
+                        className={ `page-scroll ${currentSection === 'numbers' ? 'active' : ''}` }
                         aria-label="Toggle navigation"
                         onClick={ handlePageScrollClick }
                       >

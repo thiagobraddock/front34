@@ -1,3 +1,5 @@
+import logo from '../../../assets/images/logo/white-logo.png';
+
 function Footer() {
   return (
     <footer className="footer">
@@ -10,7 +12,7 @@ function Footer() {
               <div className="single-footer f-about">
                 <div className="logo">
                   <a href="index.html">
-                    <img src="assets/images/logo/white-logo.svg" alt="#" />
+                    <img src={ logo } alt="#" />
                   </a>
                 </div>
                 <p>Making the world a better place through constructing elegant hierarchies.</p>
