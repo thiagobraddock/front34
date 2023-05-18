@@ -2,6 +2,7 @@ import iChoveu from '../../../assets/images/projects/iChoveu.svg';
 import rtl from '../../../assets/images/projects/rtl.png';
 import onlineStore from '../../../assets/images/projects/online-store.svg';
 import tunes from '../../../assets/images/projects/tunes.svg';
+import wallet from '../../../assets/images/projects/wallet.svg';
 import passwordManager from '../../../assets/images/projects/password-manager.svg';
 
 function Projects() {
@@ -179,6 +180,46 @@ function Projects() {
               <div className="info-image wow fadeInRight" data-wow-delay=".5s" style={ { visibility: 'visible', animationDelay: '0.5s', animationName: 'fadeInRight' } }>
                 <img className="ss1" alt="#" data-pagespeed-url-hash="2327635917" src={ onlineStore } />
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="info-one style2">
+          <div className="row align-items-center">
+            <div className="col-lg-6 col-md-12 col-12">
+              <div className="info-image wow fadeInLeft" data-wow-delay=".3s" style={ { visibility: 'visible', animationDelay: '0.3s', animationName: 'fadeInLeft' } }>
+                <img className="ss1" alt="#" data-pagespeed-url-hash="2622135838" src={ wallet } />
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-12 col-12">
+
+              <div
+                className="info-text wow fadeInRight"
+                data-wow-delay=".5s"
+                style={ { visibility: 'visible', animationDelay: '0.5s', animationName: 'fadeInRight' } }
+              >
+                <h2>Wallet</h2>
+                <p>
+                  Projeto em
+                  {' '}
+                  <strong>React</strong>
+                  e
+                  {' '}
+                  <strong>TypeScript</strong>
+                  {' '}
+                  desenvolvendo habilidades de estado global com
+                  {' '}
+                  <strong>Redux</strong>
+                  .
+                  <br />
+                  Você irá desenvolver uma carteira de controle de gastos pessoais, com conversor de moedas, utilizando a API de câmbio para atualizar os valores de acordo com a cotação do dia. Além disso irá testar sua aplicação utilizando
+                  {' '}
+                  <strong>React Testing Library</strong>
+                </p>
+                <div className="button">
+                  <a href="" className="btn">Iniciar</a>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
