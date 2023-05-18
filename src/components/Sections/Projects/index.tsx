@@ -3,6 +3,7 @@ import rtl from '../../../assets/images/projects/rtl.png';
 import onlineStore from '../../../assets/images/projects/online-store.svg';
 import tunes from '../../../assets/images/projects/tunes.svg';
 import wallet from '../../../assets/images/projects/wallet.svg';
+import recipesApp from '../../../assets/images/projects/recipes-app.svg';
 import starWars from '../../../assets/images/projects/star-wars.svg';
 import passwordManager from '../../../assets/images/projects/password-manager.svg';
 
@@ -259,6 +260,43 @@ function Projects() {
               <div className="info-image wow fadeInRight" data-wow-delay=".5s" style={ { visibility: 'visible', animationDelay: '0.5s', animationName: 'fadeInRight' } }>
                 <img className="ss1" alt="#" data-pagespeed-url-hash="2327635917" src={ starWars } />
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="info-one style2">
+          <div className="row align-items-center">
+            <div className="col-lg-6 col-md-12 col-12">
+              <div className="info-image wow fadeInLeft" data-wow-delay=".3s" style={ { visibility: 'visible', animationDelay: '0.3s', animationName: 'fadeInLeft' } }>
+                <img className="ss1" alt="#" data-pagespeed-url-hash="2622135838" src={ recipesApp } />
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-12 col-12">
+
+              <div
+                className="info-text wow fadeInRight"
+                data-wow-delay=".5s"
+                style={ { visibility: 'visible', animationDelay: '0.5s', animationName: 'fadeInRight' } }
+              >
+                <h2>Recipes App</h2>
+                <p>
+                  Projeto em grupo, utilizando
+                  {' '}
+                  <strong>React</strong>
+                  {' '}
+                  e
+                  {' '}
+                  <strong>TypeScript</strong>
+                  {' '}
+                  para praticar todo conhecimento adquirido no módulo de Front-end.
+                  .
+                  <br />
+                  Você irá desenvolver uma aplicação de receitas, com diversas páginas, como: Login, Comidas, Bebidas, Detalhe da receita, Finalizados, Favoritos e Perfil. Para desenvolver essa aplicação você irá consumir duas APIs utilizando diversos endpoints.
+                </p>
+                <div className="button">
+                  <a href="" className="btn">Iniciar</a>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
