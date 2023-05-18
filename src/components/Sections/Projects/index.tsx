@@ -1,5 +1,7 @@
 import iChoveu from '../../../assets/images/projects/iChoveu.svg';
 import rtl from '../../../assets/images/projects/rtl.png';
+import onlineStore from '../../../assets/images/projects/online-store.svg';
+import tunes from '../../../assets/images/projects/tunes.svg';
 import passwordManager from '../../../assets/images/projects/password-manager.svg';
 
 function Projects() {
@@ -99,7 +101,7 @@ function Projects() {
             </div>
             <div className="col-lg-6 col-md-12 col-12">
               <div className="info-image wow fadeInRight" data-wow-delay=".5s" style={ { visibility: 'visible', animationDelay: '0.5s', animationName: 'fadeInRight' } }>
-                <img className="ss1" alt="#" data-pagespeed-url-hash="2327635917" src={ iChoveu } />
+                <img className="ss1" alt="#" data-pagespeed-url-hash="2327635917" src={ tunes } />
               </div>
             </div>
           </div>
@@ -128,10 +130,17 @@ function Projects() {
                   {' '}
                   <strong>TypeScript</strong>
                   {' '}
-                  desenvolvendo habilidades de testes de integração com a biblioteca <strong>React Testing Library</strong>.
+                  desenvolvendo habilidades de testes de integração com a biblioteca
+                  {' '}
+                  <strong>React Testing Library</strong>
+                  .
                   {' '}
                   <br />
-                  Você irá realizar testes de integração com a <strong>React Testing Library</strong> em uma aplicação que simula uma pokedex.
+                  Você irá realizar testes de integração com a
+                  {' '}
+                  <strong>React Testing Library</strong>
+                  {' '}
+                  em uma aplicação que simula uma pokedex.
                 </p>
                 <div className="button">
                   <a href="" className="btn">Iniciar</a>
@@ -141,8 +150,40 @@ function Projects() {
             </div>
           </div>
         </div>
+        <div className="info-one style2">
+          <div className="row align-items-center">
+            <div className="col-lg-6 col-md-12 col-12">
+              <div className="info-text wow fadeInLeft" data-wow-delay=".3s" style={ { visibility: 'visible', animationDelay: '0.3s', animationName: 'fadeInLeft' } }>
+                <h2>Online Store</h2>
+                <p>
+                  Projeto em grupo, utilizando
+                  {' '}
+                  <strong>React</strong>
+                  {' '}
+                  e
+                  {' '}
+                  <strong>TypeScript</strong>
+                  {' '}
+                  para praticar todo conhecimento adquirido até o momento no módulo de Front-end.
+                  {' '}
+                  <br />
+                  Você irá desenvolver uma loja online, utilizando a API do Mercado Livre, nessa aplicação será possível adicionar e gerenciar produtos no seu carrinho, e preencher um formulário de compra e avaliação dos produtos.
+                </p>
+                <div className="button">
+                  <a href="" className="btn">Iniciar</a>
+                </div>
+              </div>
+
+            </div>
+            <div className="col-lg-6 col-md-12 col-12">
+              <div className="info-image wow fadeInRight" data-wow-delay=".5s" style={ { visibility: 'visible', animationDelay: '0.5s', animationName: 'fadeInRight' } }>
+                <img className="ss1" alt="#" data-pagespeed-url-hash="2327635917" src={ onlineStore } />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      
+
     </section>
   );
 }
