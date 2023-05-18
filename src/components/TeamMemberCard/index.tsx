@@ -28,6 +28,8 @@ function TeamMemberCard({ name, teamRole, imgSrc, linkedinUrl, githubUrl = '' }:
                     <li>
                       <a
                         href={ githubUrl }
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <i className="lni lni-github-original" />
                       </a>
@@ -37,6 +39,8 @@ function TeamMemberCard({ name, teamRole, imgSrc, linkedinUrl, githubUrl = '' }:
                 <li>
                   <a
                     href={ linkedinUrl }
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <i className="lni lni-linkedin-original" />
                   </a>
