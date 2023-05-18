@@ -7,10 +7,9 @@ function Team() {
         <div className="col-12">
           <div className="section-title">
             <h3 className="wow zoomIn" data-wow-delay=".2s" style={ { visibility: 'visible', animationDelay: '0.2s', animationName: 'zoomIn' } }>Time Trybe</h3>
-            <h2 className="wow fadeInUp" data-wow-delay=".4s" style={ { visibility: 'visible', animationDelay: '0.4s', animationName: 'fadeInUp' } }>Conheça o Time que te acompanhar em Front-end</h2>
+            <h2 className="wow fadeInUp" data-wow-delay=".4s" style={ { visibility: 'visible', animationDelay: '0.4s', animationName: 'fadeInUp' } }>Conheça o Time que vai te acompanhar em Front-end</h2>
             <p className="wow fadeInUp" data-wow-delay=".6s" style={ { visibility: 'visible', animationDelay: '0.6s', animationName: 'fadeInUp' } }>
-              Este time está aqui para te ajudar no que for preciso para
-              passar por este módulo da melhor forma possível.
+              Este time está aqui para te ajudar no que for preciso para vivenciar este módulo da melhor forma possível.
             </p>
           </div>
         </div>
@@ -20,7 +19,7 @@ function Team() {
           name="Carol"
           teamRole="Facilitação"
           imgSrc="https://ca.slack-edge.com/TM13XHBBQ-U02U05ACW75-30254e62a43f-512"
-          linkedinUrl="https://www.linkedin.com/in/carolinalima/"
+          linkedinUrl="https://www.linkedin.com/in/caroline-lima/"
         />
         <TeamMemberCard
           name="Ander"
@@ -50,13 +49,6 @@ function Team() {
           name="Rafa"
           teamRole="Instrução"
           imgSrc="https://ca.slack-edge.com/TM13XHBBQ-U02SE5H3UN9-a4c2b772cc05-512"
-          linkedinUrl="https://www.linkedin.com/in/carolinalima/"
-        />
-
-        <TeamMemberCard
-          name="Will"
-          teamRole="Instrução"
-          imgSrc="https://ca.slack-edge.com/TM13XHBBQ-U04J6LGBVC0-f76384bcd936-512"
           linkedinUrl="https://www.linkedin.com/in/carolinalima/"
         />
         <TeamMemberCard

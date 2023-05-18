@@ -10,7 +10,7 @@ import Header from './components/Header';
 import Welcome from './components/Sections/Welcome';
 import News from './components/Sections/News';
 import Numbers from './components/Sections/Numbers';
-import Pricing from './components/Sections/Pricing';
+import CourseDetails from './components/Sections/CourseDetails';
 import CallToAction from './components/Sections/CallToAction';
 import Team from './components/Sections/Team';
 import Projects from './components/Sections/Projects';
@@ -23,7 +23,7 @@ function App() {
   const newsRef = useRef<HTMLDivElement>(null);
   const numbersRef = useRef<HTMLDivElement>(null);
   const projectsRef = useRef<HTMLDivElement>(null);
-  const pricingRef = useRef<HTMLDivElement>(null);
+  const courseDetailsRef = useRef<HTMLDivElement>(null);
   const callToActionRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -54,8 +54,8 @@ function App() {
           sectionRef: projectsRef.current,
         },
         {
-          sectionId: '#pricing',
-          sectionRef: pricingRef.current,
+          sectionId: '#course-details',
+          sectionRef: courseDetailsRef.current,
         },
         {
           sectionId: '#call-to-action',
@@ -120,11 +120,11 @@ function App() {
         <Projects />
       </SectionRoot>
       <SectionRoot
-        sectionId="pricing"
-        className="pricing-table section"
-        refEl={ pricingRef }
+        sectionId="course-details"
+        className="course-details section"
+        refEl={ courseDetailsRef }
       >
-        <Pricing />
+        <CourseDetails />
       </SectionRoot>
       <SectionRoot
         sectionId="call-action"

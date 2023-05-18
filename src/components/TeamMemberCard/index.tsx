@@ -15,13 +15,13 @@ function TeamMemberCard({ name, teamRole, imgSrc, linkedinUrl, githubUrl = '' }:
         </div>
         <div className="content">
           <div className="row align-items-center">
-            <div className="col-lg-7 col-12">
+            <div className="col-6">
               <div className="text">
                 <h3>{name}</h3>
                 <h5>{teamRole}</h5>
               </div>
             </div>
-            <div className="col-lg-5 col-12">
+            <div className="col-6">
               <ul className="social">
                 {
                   githubUrl && (

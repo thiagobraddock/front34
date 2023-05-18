@@ -28,22 +28,16 @@ function News() {
       </div>
       <div
         className="row"
-        style={ {
-          display: 'grid',
-          gridTemplateColumns: 'repeat(3, 1fr)',
-          gap: 16,
-        } }
       >
-        <div style={ { padding: 0 } }>
+        <div className="col-lg-4 col-md-6 col-12">
           <div
-            style={ { height: '100%' } }
             className="single-feature wow fadeInUp"
             data-wow-delay=".2s"
           >
             <div
               style={ {
-                width: 60,
-                height: 60,
+                width: 90,
+                height: 90,
                 backgroundColor: '#1DB700',
                 borderRadius: '7px',
                 display: 'flex',
@@ -53,18 +47,18 @@ function News() {
                 boxShadow: '0px 4px 6px #0000002a',
               } }
             >
-              <Atom style={ { width: 24, height: 24 } } />
+              <Atom style={ { width: 40, height: 40 } } />
             </div>
             <h3 style={ { marginTop: 30 } }>React</h3>
             <p>A biblioteca front-end mais utilizada do mundo está aqui. Aprenderemos como podemos usá-la para construir aplicações</p>
           </div>
         </div>
-        <div style={ { padding: 0 } }>
-          <div style={ { height: '100%' } } className="single-feature wow fadeInUp" data-wow-delay=".4s">
+        <div className="col-lg-4 col-md-6 col-12">
+          <div className="single-feature wow fadeInUp" data-wow-delay=".4s">
             <div
               style={ {
-                width: 60,
-                height: 60,
+                width: 90,
+                height: 90,
                 backgroundColor: '#1DB700',
                 borderRadius: '7px',
                 display: 'flex',
@@ -74,7 +68,7 @@ function News() {
                 boxShadow: '0px 4px 6px #0000002a',
               } }
             >
-              <Code style={ { width: 24, height: 24 } } />
+              <Code style={ { width: 40, height: 40 } } />
             </div>
             <h3 style={ { marginTop: 30 } }>React Hooks</h3>
             <p>
@@ -84,12 +78,12 @@ function News() {
             </p>
           </div>
         </div>
-        <div style={ { padding: 0 } }>
-          <div style={ { height: '100%' } } className="single-feature wow fadeInUp" data-wow-delay=".6s">
+        <div className="col-lg-4 col-md-6 col-12">
+          <div className="single-feature wow fadeInUp" data-wow-delay=".6s">
             <div
               style={ {
-                width: 60,
-                height: 60,
+                width: 90,
+                height: 90,
                 backgroundColor: '#1DB700',
                 borderRadius: '7px',
                 display: 'flex',
@@ -99,7 +93,7 @@ function News() {
                 boxShadow: '0px 4px 6px #0000002a',
               } }
             >
-              <FileTsx style={ { width: 24, height: 24 } } />
+              <FileTsx style={ { width: 40, height: 40 } } />
             </div>
             <h3 style={ { marginTop: 30 } }>TypeScript + Vite</h3>
             <p>
@@ -108,12 +102,12 @@ function News() {
             </p>
           </div>
         </div>
-        <div style={ { padding: 0 } }>
-          <div style={ { height: '100%' } } className="single-feature wow fadeInUp" data-wow-delay=".2s">
+        <div className="col-lg-4 col-md-6 col-12">
+          <div className="single-feature wow fadeInUp" data-wow-delay=".2s">
             <div
               style={ {
-                width: 60,
-                height: 60,
+                width: 90,
+                height: 90,
                 backgroundColor: '#1DB700',
                 borderRadius: '7px',
                 display: 'flex',
@@ -123,7 +117,7 @@ function News() {
                 boxShadow: '0px 4px 6px #0000002a',
               } }
             >
-              <Textbox style={ { width: 24, height: 24 } } />
+              <Textbox style={ { width: 40, height: 40 } } />
             </div>
             <h3 style={ { marginTop: 30 } }>Formulários</h3>
             <p>
@@ -132,12 +126,12 @@ function News() {
             </p>
           </div>
         </div>
-        <div style={ { padding: 0 } }>
-          <div style={ { height: '100%' } } className="single-feature wow fadeInUp" data-wow-delay=".4s">
+        <div className="col-lg-4 col-md-6 col-12">
+          <div className="single-feature wow fadeInUp" data-wow-delay=".4s">
             <div
               style={ {
-                width: 60,
-                height: 60,
+                width: 90,
+                height: 90,
                 backgroundColor: '#1DB700',
                 borderRadius: '7px',
                 display: 'flex',
@@ -147,7 +141,7 @@ function News() {
                 boxShadow: '0px 4px 6px #0000002a',
               } }
             >
-              <Browser style={ { width: 24, height: 24 } } />
+              <Browser style={ { width: 40, height: 40 } } />
             </div>
             <h3 style={ { marginTop: 30 } }>React Router</h3>
             <p>
@@ -156,12 +150,12 @@ function News() {
             </p>
           </div>
         </div>
-        <div style={ { padding: 0 } }>
-          <div style={ { height: '100%' } } className="single-feature wow fadeInUp" data-wow-delay=".6s">
+        <div className="col-lg-4 col-md-6 col-12">
+          <div className="single-feature wow fadeInUp" data-wow-delay=".6s">
             <div
               style={ {
-                width: 60,
-                height: 60,
+                width: 90,
+                height: 90,
                 backgroundColor: '#1DB700',
                 borderRadius: '7px',
                 display: 'flex',
@@ -171,7 +165,7 @@ function News() {
                 boxShadow: '0px 4px 6px #0000002a',
               } }
             >
-              <FileCss style={ { width: 24, height: 24 } } />
+              <FileCss style={ { width: 40, height: 40 } } />
             </div>
             <h3 style={ { marginTop: 30 } }>Estilização</h3>
             <p>
@@ -180,74 +174,6 @@ function News() {
             </p>
           </div>
         </div>
-      </div>
-    </div>
-    <div className="row">
-      <div className="col-lg-4 col-md-6 col-12">
-
-        <div className="single-feature wow fadeInUp" data-wow-delay=".2s">
-          <i className="lni lni-cloud-upload" />
-          <h3>React</h3>
-          <p>A biblioteca front-end mais utilizada do mundo está aqui.</p>
-        </div>
-
-      </div>
-      <div className="col-lg-4 col-md-6 col-12">
-
-        <div className="single-feature wow fadeInUp" data-wow-delay=".4s">
-          <i className="lni lni-lock" />
-          <h3>React Hooks</h3>
-          <p>Hooks é a forma mais moderna de construir aplicações com React, e em front-end vamos aprofundar nesta funcionalidade desde a segunda sessão.</p>
-        </div>
-
-      </div>
-      <div className="col-lg-4 col-md-6 col-12">
-
-        <div className="single-feature wow fadeInUp" data-wow-delay=".6s">
-          <i className="lni lni-reload" />
-          <h3>Simple Queues</h3>
-          <p>
-            It is a long established fact that a reader will be distracted by the readable content of a
-            page at its layout.
-          </p>
-        </div>
-
-      </div>
-      <div className="col-lg-4 col-md-6 col-12">
-
-        <div className="single-feature wow fadeInUp" data-wow-delay=".2s">
-          <i className="lni lni-shield" />
-          <h3>Advanced Security</h3>
-          <p>
-            It is a long established fact that a reader will be distracted by the readable content of a
-            page at its layout.
-          </p>
-        </div>
-
-      </div>
-      <div className="col-lg-4 col-md-6 col-12">
-
-        <div className="single-feature wow fadeInUp" data-wow-delay=".4s">
-          <i className="lni lni-cog" />
-          <h3>Powerful API</h3>
-          <p>
-            It is a long established fact that a reader will be distracted by the readable content of a
-            page at its layout.
-          </p>
-        </div>
-
-      </div>
-      <div className="col-lg-4 col-md-6 col-12">
-
-        <div className="single-feature wow fadeInUp" data-wow-delay=".6s">
-          <i className="lni lni-layers" />
-          <h3>Database Backups</h3>
-          <p>
-            It is a long established fact that a reader will be distracted by the readable content of a
-            page at its layout.
-          </p>
-        </div>
-
       </div>
     </div>
   );

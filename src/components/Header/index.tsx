@@ -119,6 +119,26 @@ function Header({ currentSection }: { currentSection: string }) {
                         Números
                       </a>
                     </li>
+                    <li className="nav-item">
+                      <a
+                        href="#projects"
+                        className={ `page-scroll ${currentSection === 'projects' ? 'active' : ''}` }
+                        aria-label="Toggle navigation"
+                        onClick={ handlePageScrollClick }
+                      >
+                        Projetos
+                      </a>
+                    </li>
+                    <li className="nav-item">
+                      <a
+                        href="#course-details"
+                        className={ `page-scroll ${currentSection === 'course-details' ? 'active' : ''}` }
+                        aria-label="Toggle navigation"
+                        onClick={ handlePageScrollClick }
+                      >
+                        Ementa
+                      </a>
+                    </li>
                   </ul>
                 </div>
                 <div className="button add-list-button">
