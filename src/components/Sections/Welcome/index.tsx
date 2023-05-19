@@ -11,7 +11,7 @@ function Welcome() {
               className="wow fadeInLeft"
               data-wow-delay=".6s"
             >
-              Boas vindas ao módulo mais
+              Boas-vindas ao módulo mais
               {' '}
               <strong>estiloso</strong>
               {' '}
