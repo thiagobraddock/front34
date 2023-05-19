@@ -160,7 +160,7 @@ function CourseDetails() {
             },
             {
               title: 'Testando rotas',
-              isNew: true,
+              isNew: false,
             },
           ] }
           description="Aprendendo a testar aplicações React"
@@ -212,7 +212,7 @@ function CourseDetails() {
             },
             {
               title: 'Redux Thunk',
-              isNew: true,
+              isNew: false,
             },
             {
               title: 'Testes com Redux',
