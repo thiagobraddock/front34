@@ -12,16 +12,17 @@ function News() {
     <div className="container">
       <div className="row">
         <div className="col-12">
-          <div className="section-title">
+          <div className="section-title" style={ { width: '100%' } }>
             <h3 className="wow zoomIn" data-wow-delay=".2s">
               Novidades
             </h3>
             <h2 className="wow fadeInUp" data-wow-delay=".4s">
-              O módulo de Front-end está melhorando a cada dia!
+              O módulo de Front-end
+              <br />
+              está melhorando a cada dia!
             </h2>
             <p className="wow fadeInUp" data-wow-delay=".6s">
-              A Turma 32 começa com muitas novidades no módulo, tecnologias
-              novas, projetos novos e muita, mas muita prática.
+              A Turma 32 começa com muitas novidades: tecnologias, projetos inovadores e muita, muita prática!
             </p>
           </div>
         </div>
@@ -72,9 +73,7 @@ function News() {
             </div>
             <h3 style={ { marginTop: 30 } }>React Hooks</h3>
             <p>
-              Hooks é a forma mais moderna de construir aplicações com React,
-              e em front-end vamos aprofundar nesta funcionalidade desde a
-              segunda sessão.
+              Hooks é a forma mais moderna de construir aplicações com React. Em front-end vamos aprofundar nesta funcionalidade desde a segunda seção.
             </p>
           </div>
         </div>
@@ -145,8 +144,7 @@ function News() {
             </div>
             <h3 style={ { marginTop: 30 } }>React Router</h3>
             <p>
-              No módulo React Router, aprenderemos a criar rotas dinâmicas
-              para nossa aplicação, permitindo a navegação entre diferentes componentes e páginas de forma simples e eficiente. Vamos construir uma experiência de usuário imersiva!
+              Na seção de React Router aprenderemos a criar rotas dinâmicas para nossa aplicação, permitindo a navegação entre diferentes componentes e páginas de forma simples e eficiente. Vamos construir uma experiência de usuário imersiva!
             </p>
           </div>
         </div>

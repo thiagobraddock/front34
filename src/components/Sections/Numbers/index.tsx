@@ -5,7 +5,7 @@ function Numbers() {
         <div className="col-lg-10 offset-lg-1 col-md-12 col-12">
           <div className="title">
             <h2>Em Front-end você vai colocar a mão na massa</h2>
-            <p>Você vai fazer diversos projetos, individuais e em grupos para consolidar os seus conhecimentos.</p>
+            <p>Você vai fazer diversos projetos individuais e em grupo para consolidar os seus conhecimentos.</p>
           </div>
         </div>
       </div>
@@ -33,7 +33,7 @@ function Numbers() {
             <div className="col-lg-4 col-md-4 col-12">
               <div className="single-achievement wow fadeInUp" data-wow-delay=".6s">
                 <h3 className="counter"><span id="secondo3">4</span></h3>
-                <p>Dias de prática</p>
+                <p>Dias inteiros de prática</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-4 col-12">
@@ -45,8 +45,11 @@ function Numbers() {
             <div className="col-lg-4 col-md-4 col-12">
               <div className="single-achievement wow fadeInUp" data-wow-delay=".6s">
                 <h3 className="counter"><span id="secondo3">7+</span></h3>
-                <p>APIs para serem consultadas</p>
-                <small>Nos projetos e exercícios</small>
+                <p>
+                  APIs para serem consultadas
+                  <br />
+                  Nos projetos e exercícios
+                </p>
               </div>
             </div>
           </div>

@@ -998,13 +998,13 @@ ul,ol {
 .section-title {
   text-align: center;
   margin-bottom: 80px;
-  padding: 0 300px;
+  padding: 0 200px;
   position: relative;
   z-index: 5
 }
 
 .section-title h3 {
-  font-size: 20px;
+  font-size: 27px;
   font-weight: 600;
   display: block;
   margin-bottom: 8px;
@@ -1026,7 +1026,7 @@ ul,ol {
 
 @media only screen and (min-width: 992px) and (max-width:1199px) {
   .section-title {
-      padding:0 200px;
+      padding:0 150px;
       margin-bottom: 70px
   }
 }
@@ -1038,11 +1038,11 @@ ul,ol {
   }
 
   .section-title h3 {
-      font-size: 14px
+      font-size: 20px
   }
 
   .section-title h2 {
-      font-size: 24px;
+      font-size: 35px;
       line-height: 32px;
       margin-bottom: 20px
   }
@@ -1059,11 +1059,11 @@ ul,ol {
   }
 
   .section-title h3 {
-      font-size: 14px
+      font-size: 16px
   }
 
   .section-title h2 {
-      font-size: 20px;
+      font-size: 30px;
       line-height: 30px;
       margin-bottom: 18px
   }
@@ -2022,7 +2022,7 @@ ul,ol {
 
 .hero-area .hero-content p {
   margin-top: 30px;
-  font-size: 15px;
+  font-size: 20px;
   color: #fff
 }
 
@@ -2170,13 +2170,13 @@ ul,ol {
   }
 
   .hero-area .hero-content h1 {
-      font-size: 35px;
+      font-size: 40px;
       font-weight: 700;
       line-height: 38px
   }
 
   .hero-area .hero-content p {
-      font-size: 15px
+      font-size: 20px
   }
 }
 
@@ -2187,13 +2187,13 @@ ul,ol {
   }
 
   .hero-area .hero-content h1 {
-      font-size: 24px;
+      font-size: 40px;
       line-height: 32px
   }
 
   .hero-area .hero-content p {
       margin-top: 15px;
-      font-size: 14px;
+      font-size: 20px;
       line-height: 22px
   }
 
@@ -2419,7 +2419,7 @@ ul,ol {
 }
 
 .our-achievement .single-achievement h3 {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 800;
   display: block;
   margin-bottom: 5px;
@@ -2443,7 +2443,7 @@ ul,ol {
   }
 
   .our-achievement .single-achievement h3 {
-      font-size: 28px
+      font-size: 35px
   }
 }
 

@@ -13,7 +13,7 @@ function CallToAction() {
               Conte com a gente para te ajudar nessa jornada!
             </p>
             <div className="button wow fadeInUp" data-wow-delay=".6s">
-              <a href="https://app.betrybe.com/learn" className="btn">Ir para o course</a>
+              <a href="https://app.betrybe.com/learn" className="btn">Ir para a plataforma</a>
             </div>
           </div>
         </div>
