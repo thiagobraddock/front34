@@ -1024,6 +1024,22 @@ ul,ol {
   font-size: 17px
 }
 
+.container-background {
+  font-size: 15rem;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 6px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  overflow: hidden;
+  color: rgba(0,0,0,.05)
+}
+
 @media only screen and (min-width: 992px) and (max-width:1199px) {
   .section-title {
       padding:0 150px;

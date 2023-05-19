@@ -6,7 +6,8 @@
       "rules": {
         "react/jsx-max-depth": "off",
         "max-len": "off",
-        "jsx-a11y/anchor-is-valid": "off"
+        "jsx-a11y/anchor-is-valid": "off",
+        "max-lines": "off"
       }
     }
   ],
