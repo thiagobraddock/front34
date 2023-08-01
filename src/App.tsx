@@ -15,6 +15,7 @@ import CallToAction from './components/Sections/CallToAction';
 import Team from './components/Sections/Team';
 import Projects from './components/Sections/Projects';
 import SectionRoot from './components/Sections/SectionRoot';
+import SoftSkills from './components/Sections/SoftSkills';
 
 function App() {
   const [currentSection, setCurrentSection] = useState('home');
@@ -104,6 +105,7 @@ function App() {
         refEl={ newsRef }
       >
         <News />
+        <SoftSkills />
       </SectionRoot>
       <SectionRoot
         sectionId="numbers"

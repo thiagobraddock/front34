@@ -5,6 +5,7 @@ import joao from '../../../assets/images/members/joao.png';
 import filipe from '../../../assets/images/members/filipe.png';
 import dani from '../../../assets/images/members/dani.png';
 import ivan from '../../../assets/images/members/ivan.png';
+import sugano from '../../../assets/images/members/sugano.png';
 
 type TeamMerberData = TeamMemberCardProps[];
 
@@ -48,7 +49,7 @@ export const data: TeamMerberData = [
   },
   {
     name: 'Ivan Rafael',
-    teamRole: 'Pessoa Instrutora',
+    teamRole: 'Instrutor',
     imgSrc: ivan,
     linkedinUrl: 'https://www.linkedin.com/in/ivan-rafael/',
     githubUrl: 'https://github.com/IvanRafael-Dev',
@@ -60,5 +61,12 @@ export const data: TeamMerberData = [
     imgSrc: joao,
     linkedinUrl: 'https://www.linkedin.com/in/joao-andrade-junior/',
     githubUrl: 'https://github.com/joaoAndradeJr',
+  },
+  {
+    name: 'Flávio Sugano',
+    teamRole: 'Instrutor',
+    imgSrc: sugano,
+    linkedinUrl: 'https://www.linkedin.com/in/flaviosugano/',
+    githubUrl: 'https://github.com/flaviosugano',
   },
 ];
