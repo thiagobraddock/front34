@@ -4,6 +4,7 @@ import teph from '../../../assets/images/members/teph.png';
 import joao from '../../../assets/images/members/joao.png';
 import filipe from '../../../assets/images/members/filipe.png';
 import dani from '../../../assets/images/members/dani.png';
+import ivan from '../../../assets/images/members/ivan.png';
 
 type TeamMerberData = TeamMemberCardProps[];
 
@@ -48,7 +49,7 @@ export const data: TeamMerberData = [
   {
     name: 'Ivan Rafael',
     teamRole: 'Pessoa Instrutora',
-    imgSrc: 'https://ca.slack-edge.com/TM13XHBBQ-U038EHSMVC0-c2758eb7a62d-512',
+    imgSrc: ivan,
     linkedinUrl: 'https://www.linkedin.com/in/ivan-rafael/',
     githubUrl: 'https://github.com/IvanRafael-Dev',
     instagramUrl: 'http://instagram.com/ivandolim',
