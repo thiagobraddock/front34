@@ -2080,7 +2080,7 @@ ul,ol {
   display: inline-block;
   margin-left: 15px;
   color: #fff;
-  font-weight: 500
+  font-weight: 500;
 }
 
 .hero-area .hero-content .button .video-button:hover .video {
@@ -3857,7 +3857,7 @@ blockquote span {
 }
 
 .team .single-team .content {
-  padding: 25px 30px 30px 30px;
+  padding: 20px;
   border: 1px solid #eee;
   border-radius: 0 0 10px 10px
 }
@@ -4811,4 +4811,9 @@ blockquote span {
 .footer .footer-newsletter .newsletter-form .button .btn:hover {
   color: #1DB700;
   background-color: #fff
+}
+
+.text h4 {
+  font-size: 1rem;
+  
 }
