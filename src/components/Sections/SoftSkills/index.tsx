@@ -12,7 +12,14 @@ import {
 
 import './index.css';
 
-const skillData = [
+interface Skill {
+  icon: React.ComponentType;
+  title: string;
+  delay: string;
+  description: string;
+}
+
+const skillData: Skill[] = [
   { icon: Lightbulb, title: 'Criatividade e Inovação', delay: '.2s', description: 'Como utilizar a criatividade na resolução de problemas' },
   { icon: Brain, title: 'Brainstorm', delay: '.4s', description: 'Diferentes técnicas para gerar ideias' },
   { icon: UsersFour, title: 'Colaboração', delay: '.6s', description: 'A importância colaboração em times de desenvolvimento, e como desenvolvê-la' },
@@ -23,7 +30,7 @@ const skillData = [
   { icon: PresentationChart, title: 'Apresentação de Projetos', delay: '.6s', description: 'Como apresentar projetos de forma eficaz' },
 ];
 
-function SkillCard({ icon: Icon, title, delay, description }) {
+function SkillCard({ icon: Icon, title, delay, description }:Skill) {
   return (
     <div className="col-lg-4 col-md-6 col-12">
       <div className="single-feature wow fadeInUp" data-wow-delay={ delay }>
