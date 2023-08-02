@@ -6,14 +6,15 @@ import filipe from '../../../assets/images/members/filipe.png';
 import dani from '../../../assets/images/members/dani.png';
 import ivan from '../../../assets/images/members/ivan.png';
 import sugano from '../../../assets/images/members/sugano.png';
+import felipe from '../../../assets/images/members/felipe.png';
 
-type TeamMerberData = TeamMemberCardProps[];
+type TeamMemberData = TeamMemberCardProps[];
 
-export const data: TeamMerberData = [
+export const data: TeamMemberData = [
   {
     name: 'Felipe Trindade',
     teamRole: 'Coordenação',
-    imgSrc: 'https://ca.slack-edge.com/TM13XHBBQ-U044GBYRYAJ-7be4bc859dba-512',
+    imgSrc: felipe,
     linkedinUrl: 'https://www.linkedin.com/in/felipetrindade/',
     githubUrl: 'https://github.com/ftrindade87',
   },

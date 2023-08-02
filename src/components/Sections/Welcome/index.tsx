@@ -1,4 +1,5 @@
 import phone from '../../../assets/images/hero/phone.png';
+import mockup from '../../../assets/images/hero/mockup-front.png';
 
 function Welcome() {
   return (
@@ -32,7 +33,7 @@ function Welcome() {
         </div>
         <div className="col-lg-7 col-md-12 col-12">
           <div className="hero-image wow fadeInRight" data-wow-delay=".4s">
-            <img src={ phone } alt="#" />
+            <img src={ mockup } alt="#" />
           </div>
         </div>
       </div>

@@ -1985,7 +1985,10 @@ ul,ol {
 .hero-area {
   position: relative;
   padding: 180px 0 120px 0;
-  background: #1DB700
+  /* background: #1DB700 */
+  background-color: #034422;
+  background-size: cover;
+  background-image: url(../images/hero/bg-verde.png);
 }
 
 @media only screen and (min-width: 768px) and (max-width:991px) {
@@ -2024,7 +2027,7 @@ ul,ol {
 }
 
 .hero-area .hero-content h1 {
-  font-size: 40px;
+  font-size: 4rem !important;
   font-weight: 800;
   line-height: 50px;
   color: #fff;
@@ -2185,7 +2188,7 @@ ul,ol {
   }
 
   .hero-area .hero-content h1 {
-      font-size: 40px;
+      font-size: 3rem;
       font-weight: 700;
       line-height: 38px
   }
@@ -2202,7 +2205,7 @@ ul,ol {
   }
 
   .hero-area .hero-content h1 {
-      font-size: 40px;
+      font-size: 3rem;
       line-height: 32px
   }
 
