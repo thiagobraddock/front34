@@ -148,6 +148,7 @@ function Header({ currentSection }: { currentSection: string }) {
                     target="_blank"
                     rel="noreferrer"
                   >
+                    <i className="lni lni-rocket" />
                     Começar estudos
                   </a>
                 </div>

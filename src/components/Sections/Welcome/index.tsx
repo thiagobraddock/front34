@@ -1,4 +1,3 @@
-import phone from '../../../assets/images/hero/phone.png';
 import mockup from '../../../assets/images/hero/mockup-front.png';
 
 function Welcome() {
@@ -14,7 +13,7 @@ function Welcome() {
             >
               Boas-vindas ao módulo mais
               {' '}
-              <strong>estiloso</strong>
+              <strong style={ { color: '#1DB700' } }>estiloso</strong>
               {' '}
               da Trybe.
             </p>

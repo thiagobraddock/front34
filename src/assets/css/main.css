@@ -1627,8 +1627,8 @@ ul,ol {
 }
 
 .header .button .btn {
-  background-color: transparent;
-  border: 2px solid #fff;
+  /* background-color: transparent; */
+  /* border: 2px solid #fff; */
   color: #fff;
   padding: 12px 30px
 }
@@ -2049,9 +2049,9 @@ ul,ol {
 }
 
 .hero-area .hero-content .button .btn {
-  background-color: #fff;
-  color: #1DB700;
-  margin-right: 12px
+  /* background-color: #fff; */
+  /* color: #1DB700; */
+  /* margin-right: 12px */
 }
 
 .hero-area .hero-content .button .btn i {
