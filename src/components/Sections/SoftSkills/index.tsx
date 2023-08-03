@@ -20,14 +20,12 @@ interface Skill {
 }
 
 const skillData: Skill[] = [
-  { icon: Lightbulb, title: 'Criatividade e Inovação', delay: '.2s', description: 'Como utilizar a criatividade na resolução de problemas' },
-  { icon: Brain, title: 'Brainstorm', delay: '.4s', description: 'Diferentes técnicas para gerar ideias' },
-  { icon: UsersFour, title: 'Colaboração', delay: '.6s', description: 'A importância colaboração em times de desenvolvimento, e como desenvolvê-la' },
-  { icon: Handshake, title: 'Criatividade + Colaboração', delay: '.2s', description: 'Como utilizar a colaboração para aumentar a criatividade' },
-  { icon: LinkedinLogo, title: 'Linkedin', delay: '.4s', description: 'Como construir um perfil estratégico' },
-  { icon: GithubLogo, title: 'Github', delay: '.6s', description: 'Desenvolvendo um GitHub campeão' },
-  { icon: GitBranch, title: 'Projetos em grupo', delay: '.6s', description: 'Aprendendo a colaborar utilizando metodologias ágeis, e o passo a passo para apresentar o seu projeto' },
-  { icon: PresentationChart, title: 'Apresentação de Projetos', delay: '.6s', description: 'Como apresentar projetos de forma eficaz' },
+  { icon: Lightbulb, title: 'Criatividade e Inovação', delay: '.2s', description: 'Criatividade na resolução de problemas e produção de ideias originais.' },
+  { icon: UsersFour, title: 'Colaboração', delay: '.6s', description: 'A importância da colaboração em times de desenvolvimento, e como desenvolvê-la.' },
+  { icon: Handshake, title: 'Criatividade + Colaboração', delay: '.2s', description: 'Como utilizar a colaboração para aumentar a criatividade.' },
+  { icon: LinkedinLogo, title: 'Linkedin', delay: '.4s', description: 'Como construir um perfil estratégico.' },
+  { icon: GithubLogo, title: 'Github', delay: '.6s', description: 'Desenvolvendo um GitHub campeão.' },
+  { icon: GitBranch, title: 'Projetos em grupo', delay: '.6s', description: 'Aprimorando a colaboração através de metodologias ágeis.' },
 ];
 
 function SkillCard({ icon: Icon, title, delay, description }:Skill) {
@@ -37,7 +35,7 @@ function SkillCard({ icon: Icon, title, delay, description }:Skill) {
         <div className="iconBg">
           <Icon />
         </div>
-        <h3 className="mt-3">{title}</h3>
+        <h3 style={ { marginTop: 30, textAlign: 'center' } }>{title}</h3>
         <p>{description}</p>
       </div>
     </div>
