@@ -32,7 +32,7 @@ export const data: TeamMemberData = [
     linkedinUrl: 'https://www.linkedin.com/in/profthiago/',
     githubUrl: 'https://github.com/thiagobraddock',
     // instagramUrl: 'https://www.instagram.com/profthiago/',
-    twitterUrl: 'https://twitter.com/profthiago',
+    twitterUrl: 'https://twitter.com/thiagobraddock',
     youtubeUrl: 'https://youtube.com/programadorcaipira',
   },
   {

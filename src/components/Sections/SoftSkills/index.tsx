@@ -53,7 +53,7 @@ function SoftSkills() {
             </h3>
 
             <p className="wow fadeInUp" data-wow-delay=".6s">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quod dolorem alias aliquid tenetur.
+              O módulo também está recheado de conteúdos importantes para o desenvolvimento de soft skills chave no mercado de trabalho, e para a construção da sua carreira como dev.
             </p>
           </div>
         </div>
