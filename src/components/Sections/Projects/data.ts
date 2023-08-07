@@ -9,17 +9,17 @@ import passwordManager from '../../../assets/images/projects/password-manager.sv
 
 export const PROJECTS_LIST = [
   {
-    title: 'iChoveu',
+    title: 'iChoveu ✨ 25 pontos',
     image: iChoveu,
     description: 'Projeto que aborda funções assíncronas e requisições a API. Você irá desenvolver uma aplicação que consulta a API chamada weatherapi e com ela conseguirá exibir a previsão do tempo para a cidade pesquisada.',
   },
   {
-    title: 'Password Manager',
+    title: 'Password Manager ✨ 30 pontos',
     image: passwordManager,
     description: 'Projeto em React com TypeScript onde são desenvolvidas habilidades de controle de estado, eventos em react passagem de props, renderização condicional elevação de estado listagem de componentes de maneira dinâmica. Você irá desenvolver uma aplicação que cria e gerencia senhas utilizadas em sites e aplicativos.',
   },
   {
-    title: 'TrybeTunes',
+    title: 'TrybeTunes ✨ 45 pontos ',
     image: tunes,
     description: 'Projeto que aborda efeitos colaterais do React, requisições e rotas com o React Router DOM. Você irá desenvolver uma aplicação semelhante ao iTunes onde, após fazer o login, será possível pesquisar por artistas e ver álbuns e músicas relacionadas a ele. Além disso, será possível favoritar músicas,vê-las em uma página separadas e alterar as informações de usuário.',
   },
