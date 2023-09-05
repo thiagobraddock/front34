@@ -7,6 +7,8 @@ import dani from '../../../assets/images/members/dani.png';
 import ivan from '../../../assets/images/members/ivan.png';
 import sugano from '../../../assets/images/members/sugano.png';
 import felipe from '../../../assets/images/members/felipe.png';
+import tiago from '../../../assets/images/members/tiago.png';
+import renato from '../../../assets/images/members/renato.png';
 
 type TeamMemberData = TeamMemberCardProps[];
 
@@ -26,6 +28,12 @@ export const data: TeamMemberData = [
     goodreadsUrl: 'https://www.goodreads.com/user/show/161335548-st-phanie-santos',
   },
   {
+    name: 'Danielli "Dani" Olegário',
+    teamRole: 'Soft Skills e Carreira',
+    imgSrc: dani,
+    linkedinUrl: 'https://www.linkedin.com/in/danielliolegario/',
+  },
+  {
     name: 'Thiago "Braddock"',
     teamRole: 'Especialista',
     imgSrc: braddock,
@@ -36,17 +44,11 @@ export const data: TeamMemberData = [
     youtubeUrl: 'https://youtube.com/programadorcaipira',
   },
   {
-    name: 'Danielli "Dani" Olegário',
-    teamRole: 'Soft Skills e Carreira',
-    imgSrc: dani,
-    linkedinUrl: 'https://www.linkedin.com/in/danielliolegario/',
-  },
-  {
-    name: 'Filipe Santana',
-    teamRole: 'Instrutor',
-    imgSrc: filipe,
-    linkedinUrl: 'https://www.linkedin.com/in/filipesantanadev/',
-    githubUrl: 'https://github.com/FilipeSkmc',
+    name: 'Renato Calzzetta Moraes Freire',
+    teamRole: 'Especialista',
+    imgSrc: renato,
+    linkedinUrl: 'https://www.linkedin.com/in/renato-freire/',
+    githubUrl: 'https://github.com/renatofreire',
   },
   {
     name: 'Ivan Rafael',
@@ -57,6 +59,20 @@ export const data: TeamMemberData = [
     instagramUrl: 'http://instagram.com/ivandolim',
   },
   {
+    name: 'Flávio Sugano',
+    teamRole: 'Instrutor',
+    imgSrc: sugano,
+    linkedinUrl: 'https://www.linkedin.com/in/flaviosugano/',
+    githubUrl: 'https://github.com/flaviosugano',
+  },
+  {
+    name: 'Filipe Santana',
+    teamRole: 'Instrutor',
+    imgSrc: filipe,
+    linkedinUrl: 'https://www.linkedin.com/in/filipesantanadev/',
+    githubUrl: 'https://github.com/FilipeSkmc',
+  },
+  {
     name: 'João Andrade Junior',
     teamRole: 'Instrutor',
     imgSrc: joao,
@@ -64,10 +80,10 @@ export const data: TeamMemberData = [
     githubUrl: 'https://github.com/joaoAndradeJr',
   },
   {
-    name: 'Flávio Sugano',
+    name: 'Tiago de Almeida Paz',
     teamRole: 'Instrutor',
-    imgSrc: sugano,
-    linkedinUrl: 'https://www.linkedin.com/in/flaviosugano/',
-    githubUrl: 'https://github.com/flaviosugano',
+    imgSrc: tiago,
+    linkedinUrl: 'http://linkedin.com/in/tiago-de-almeida-paz/',
+    githubUrl: 'https://github.com/TiagoPaz2000',
   },
 ];
